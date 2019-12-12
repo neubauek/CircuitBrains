@@ -1,0 +1,122 @@
+
+(rules PCB CircuitBrains Deluxe v1_0
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 2570)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule IN1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule PWR
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.6)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clear 152.6)
+    (clear 76.2 (type smd_to_turn_gap))
+    (clear 38.2 (type smd_smd))
+  )
+  (padstack "Via[0-3]_508:254_um"
+    (shape
+      (circle F.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle IN1.Cu 508.0 0.0 0.0)
+    )
+    (shape
+      (circle PWR 508.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 508.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (padstack "Via[0-3]_1400:1000_um"
+    (shape
+      (circle F.Cu 1400.0 0.0 0.0)
+    )
+    (shape
+      (circle IN1.Cu 1400.0 0.0 0.0)
+    )
+    (shape
+      (circle PWR 1400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_508:254_um" "Via[0-3]_508:254_um" default
+  )
+  (via 
+    "Via[0-3]_1400:1000_um" "Via[0-3]_1400:1000_um" default
+  )
+  (via 
+    "Via[0-3]_508:254_um-kicad_default" "Via[0-3]_508:254_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_1400:1000_um-kicad_default" "Via[0-3]_1400:1000_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-3]_508:254_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_508:254_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu IN1.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +3V3 "Net-(C1-Pad2)" "Net-(C2-Pad2)" /RESET "Net-(C4-Pad1)" "Net-(C6-Pad1)" "Net-(D1-Pad1)"
+    VIN /SWO /SWCLK /SWDIO "Net-(L1-PadP$2)" "Net-(LED1-Pad2)" "Net-(LED2-Pad2)" "/FLASH_CS"
+    "Net-(R3-Pad2)" /SCL /SDA "/D13_LED" "/FLASH_IO1" "/FLASH_IO2" "/FLASH_IO0" "/FLASH_SCK"
+    "/FLASH_IO3" "Net-(U2-Pad4)" /A0 /A1 /A11 /A10 /A9 /A8
+    /A7 /A6 /A2 /A3 /A4 /A5 /D17 /D16
+    /D15 /D14 /MOSI /SCK /MISO /D2 /D3 /D4
+    /D5 /D6 /D12 /D7 /D8 "/D1_TX" "/D0_RX" "/D-"
+    /D+ /D11 /D10 /D18 /D9 /A13 /A12
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu IN1.Cu B.Cu)
+    )
+  )
+)
