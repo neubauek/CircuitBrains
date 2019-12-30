@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name Kevin-Connectors)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Connectors.lib)(options "")(descr ""))
+  (lib (name Kevin-LCDs)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-LCDs.lib)(options "")(descr ""))
+  (lib (name Kevin-Speaker_Buzzer)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Speaker_Buzzer.lib)(options "")(descr ""))
+  (lib (name Kevin-USB)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-USB.lib)(options "")(descr ""))
+  (lib (name Kevin-Switches)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Switches.lib)(options "")(descr ""))
+  (lib (name Kevin-CPU_MCU)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-CPU_MCU.lib)(options "")(descr ""))
+  (lib (name Kevin-Power)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Power.lib)(options "")(descr ""))
+  (lib (name Kevin-Clock)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Clock.lib)(options "")(descr ""))
+  (lib (name Kevin-MiscICs)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-MiscICs.lib)(options "")(descr ""))
+  (lib (name CircuitBrainsModule)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/CircuitBrainsModule.lib)(options "")(descr ""))
+)
