@@ -8,5 +8,4 @@
   (lib (name Kevin-Power)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Power.lib)(options "")(descr ""))
   (lib (name Kevin-Clock)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-Clock.lib)(options "")(descr ""))
   (lib (name Kevin-MiscICs)(type Legacy)(uri ${KICAD_USER_DIR}/Libraries/Kevin-MiscICs.lib)(options "")(descr ""))
-  (lib (name CircuitBrainsModule)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/CircuitBrainsModule.lib)(options "")(descr ""))
 )

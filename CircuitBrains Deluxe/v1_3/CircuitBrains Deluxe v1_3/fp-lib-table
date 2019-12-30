@@ -9,5 +9,4 @@
   (lib (name Kevin-Misc)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Misc.pretty)(options "")(descr ""))
   (lib (name Kevin-Power)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Power.pretty)(options "")(descr ""))
   (lib (name Kevin-SOIC)(type KiCad)(uri /Users/kevin/Documents/KiCad/Footprints/Kevin-SOIC.pretty)(options "")(descr ""))
-  (lib (name "CircuitBrains Deluxe v1_3")(type KiCad)(uri "${KIPRJMOD}/CircuitBrains Deluxe v1_3.pretty")(options "")(descr ""))
 )
