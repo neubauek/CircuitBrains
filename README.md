@@ -13,9 +13,11 @@ Specs:
 - Breakouts for 14 Analog and 19 Digital Inputs/Outputs
 
 Revision History / Known Issues:
+
 v1.0:
 - Initial release
 - Analog output does no work due to silicon issue with ATSAMD51. Requires a dedicated VREF/AREF pin with external 3.3 VREF input
+
 v1.1 & v1.2:
 - Not released due to issues resulting from design changes. I removed the pull-up on RST because the datasheet says it was optional. Turns out it was not so optional. These revisions will not function without a 10K resistor bodged onto the RST line.
 - Dedicated a pin to VREF. Added a 0 Ohm resistor with a 3.3v input into VREF. 
@@ -28,5 +30,6 @@ v1.1 & v1.2:
 - Removed Schottkey diode on VIN. Acceptable risk tradeoff for the space.
 - Changed to a different flash chip with a smaller footprint
 - Shuffled I/O pin assignments for more efficient trace routing/layout
+
 v1.3 (Untested as of Dec 30, 2019):
 - Added 10k pull-up back to RST.
