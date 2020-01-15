@@ -33,8 +33,9 @@ v1.1 & v1.2:
 - Changed to a different flash chip with a smaller footprint
 - Shuffled I/O pin assignments for more efficient trace routing/layout
 
-v1.3 (Untested as of Dec 30, 2019):
+v1.3:
 - Added 10k pull-up back to RST.
+- All tests working out: I2C, SPI, Analog & Digital In, Analog Out
 
 ## Basic
 Coming soon
