@@ -1,6 +1,6 @@
 # CircuitBrains
 
-# Deluxe
+## Deluxe
 ![Deluxe Front](CBDeluxe_Front.jpg) ![Deluxe Back](CBDeluxe_Back.jpg)
 https://www.kevinneubauer.com/portfolio/circuitbrains-deluxe/
 
@@ -36,5 +36,5 @@ v1.1 & v1.2:
 v1.3 (Untested as of Dec 30, 2019):
 - Added 10k pull-up back to RST.
 
-# Basic
+## Basic
 Coming soon
