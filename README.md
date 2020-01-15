@@ -1,5 +1,7 @@
 # CircuitBrains
 
+# Deluxe
+![Deluxe Front](CBDeluxe_Front.jpg) ![Deluxe Back](CBDeluxe_Back.jpg)
 https://www.kevinneubauer.com/portfolio/circuitbrains-deluxe/
 
 Small form-factor 48-pin castellated pad module. Designed to allow an easy implementation of CircuitPython in maker/hacker projects without the bulk of a large breakout board.
@@ -33,3 +35,6 @@ v1.1 & v1.2:
 
 v1.3 (Untested as of Dec 30, 2019):
 - Added 10k pull-up back to RST.
+
+# Basic
+Coming soon
