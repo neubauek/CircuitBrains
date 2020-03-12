@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name "Kevin-Connectors")(type "KiCad")(uri "/Users/kevin/Documents/KiCad/Footprints/Kevin-Connectors.pretty")(options "")(descr ""))
+  (lib (name "Kevin-Misc")(type "KiCad")(uri "/Users/kevin/Documents/KiCad/Footprints/Kevin-Misc.pretty")(options "")(descr ""))
+  (lib (name "Kevin-USB")(type "KiCad")(uri "/Users/kevin/Documents/KiCad/Footprints/Kevin-USB.pretty")(options "")(descr ""))
+  (lib (name "CircuitBrainsBasicTestJig")(type "KiCad")(uri "${KIPRJMOD}/CircuitBrainsBasicTestJig.pretty")(options "")(descr ""))
+  (lib (name "CircuitBrainsModule")(type "KiCad")(uri "/Users/kevin/Documents/KiCad/Footprints/CircuitBrainsModule.pretty")(options "")(descr ""))
+)

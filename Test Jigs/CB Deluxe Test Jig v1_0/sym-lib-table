@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name CircuitBrainsModule)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/CircuitBrainsModule.lib)(options "")(descr ""))
+  (lib (name Kevin-Connectors)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/Kevin-Connectors.lib)(options "")(descr ""))
+  (lib (name Kevin-USB)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/Kevin-USB.lib)(options "")(descr ""))
+  (lib (name Kevin-Power)(type Legacy)(uri /Users/kevin/Documents/KiCad/Libraries/Kevin-Power.lib)(options "")(descr ""))
+)
