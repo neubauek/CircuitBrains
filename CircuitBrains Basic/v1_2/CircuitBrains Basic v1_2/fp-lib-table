@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name Kevin-Battery)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Battery.pretty)(options "")(descr ""))
+  (lib (name Kevin-Connectors)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Connectors.pretty)(options "")(descr ""))
+  (lib (name Kevin-LCDs)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-LCDs.pretty)(options "")(descr ""))
+  (lib (name Kevin-Speaker_Buzzer)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Speaker_Buzzer.pretty)(options "")(descr ""))
+  (lib (name Kevin-USB)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-USB.pretty)(options "")(descr ""))
+  (lib (name Kevin-Switches)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Switches.pretty)(options "")(descr ""))
+  (lib (name Kevin-QFN)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-QFN.pretty)(options "")(descr ""))
+  (lib (name Kevin-Misc)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Misc.pretty)(options "")(descr ""))
+  (lib (name Kevin-Power)(type KiCad)(uri ${KICAD_USER_DIR}/Footprints/Kevin-Power.pretty)(options "")(descr ""))
+  (lib (name Panelization)(type KiCad)(uri /Users/kevin/Documents/KiCad/Footprints/Panelization.pretty)(options "")(descr ""))
+)

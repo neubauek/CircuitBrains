@@ -1,8 +1,8 @@
-(module 48SOM_29MMx29MM_HandSolder (layer F.Cu) (tedit 5DF2967D)
+(module Deluxe_48SOM_29MMx29MM_HandSolder (layer F.Cu) (tedit 5DF2967D)
   (fp_text reference REF** (at 14.5 14.25) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 48SOM_29MMx29MM_HandSolder (at 14.25 14.25) (layer F.Fab) hide
+  (fp_text value Deluxe_48SOM_29MMx29MM_HandSolder (at 14.25 14.25) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 29) (end 0 0) (layer F.SilkS) (width 0.1))
