@@ -49,7 +49,7 @@ Specs:
 - Onboard 3.3V LDO Regulator
 - Power and Status LEDs
 - Breakouts for SPI and I2C
-- Breakouts for 13 Analog and 19 Digital Inputs/Outputs
+- Breakouts for 4 Analog and 8 Digital Inputs/Outputs
 
 Revision History / Known Issues:
 v1.2:
