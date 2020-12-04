@@ -38,4 +38,20 @@ v1.3:
 - All tests working out: I2C, SPI, Analog & Digital In, Analog Out
 
 ## Basic
-Coming soon
+<img src="CBBasic_Front.jpg" alt="Basic Front" width="200" height="200"><img src="CBBasic_Back.jpg" alt="Basic Back" width="200" height="200"><br/>
+https://www.kevinneubauer.com/portfolio/circuitbrains-basic/
+
+Small form-factor 28-pin castellated pad module. Designed to allow an easy implementation of CircuitPython in maker/hacker projects without the bulk of a large breakout board.
+
+Specs:
+- Atmel ATSAMD21E18A Microcontroller (32-bit ARM Cortex M0)
+- 4 MB SPI Flash
+- Onboard 3.3V LDO Regulator
+- Power and Status LEDs
+- Breakouts for SPI and I2C
+- Breakouts for 13 Analog and 19 Digital Inputs/Outputs
+
+Revision History / Known Issues:
+v1.2:
+- Initial Release
+- All tests working out
