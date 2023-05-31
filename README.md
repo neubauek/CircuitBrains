@@ -2,7 +2,7 @@
 
 ## Deluxe
 <img src="CBDeluxe_Front.jpg" alt="Deluxe Front" width="200" height="200"><img src="CBDeluxe_Back.jpg" alt="Deluxe Back" width="200" height="200"><br/>
-https://www.kevinneubauer.com/portfolio/circuitbrains-deluxe/
+https://kevinneubauer.com/projects/circuitbrains-deluxe/
 
 Small form-factor 48-pin castellated pad module. Designed to allow an easy implementation of CircuitPython in maker/hacker projects without the bulk of a large breakout board.
 
@@ -39,7 +39,7 @@ v1.3:
 
 ## Basic
 <img src="CBBasic_Front.jpg" alt="Basic Front" width="200" height="200"><img src="CBBasic_Back.jpg" alt="Basic Back" width="200" height="200"><br/>
-https://www.kevinneubauer.com/portfolio/circuitbrains-basic/
+https://kevinneubauer.com/projects/circuitbrains-basic/
 
 Small form-factor 28-pin castellated pad module. Designed to allow an easy implementation of CircuitPython in maker/hacker projects without the bulk of a large breakout board.
 
